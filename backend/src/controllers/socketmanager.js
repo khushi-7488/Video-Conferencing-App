@@ -53,7 +53,9 @@ const connectToSocket = (server) => {
             }
         })
 
-
+socket.in("disconnect",()=>{
+    
+})
     })
 }
 
